@@ -24,6 +24,7 @@ const handleLogin = async () => {
       <input placeholder="Email" onChange={e => setEmail(e.target.value)} />
       <input type="password" placeholder="Password" onChange={e => setPassword(e.target.value)} />
       <button onClick={handleLogin}>Login</button>
+      <button onClick={handleLogin}>Login</button>
     </div>
   );
 }
